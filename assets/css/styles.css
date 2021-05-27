@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  height: 50%;
+  width: 100%;
+}
+
+.content {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 400;
+  text-transform: none;
+  color: rgb(26, 27, 31);
+}
+
+.intro h1 {
+  font-size: 25px;
+  color: rgb(26, 27, 31);
+  line-height: 28px;
+}
+
+.intro p:last-child {
+  color: rgb(26, 27, 31);
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.section-destination h2 {
+  font-size: 28px;
+  font-weight: 400;
+  color: rgb(26, 27, 31);
+  line-height: 28px;
+}
+
+.section-destination > p {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  opacity: 0.6;
+  color: rgb(26, 27, 31);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.destination img {
+  display: block;
+  justify-self: auto;
+  margin-left: 2%;
+}
+
+.destination p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: rgb(26, 27, 31);
+  line-height: 28px;
+  margin-left: 5%;
+}
+
+figcaption {
+  margin-left: 2%;
+  color: rgb(26, 27, 31);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+span {
+  position: absolute;
+  font-size: 62px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+ul li {
+  list-style: none;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+figure img {
+  max-width: 60%;
+}
