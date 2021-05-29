@@ -131,8 +131,13 @@ article {
   padding-bottom: 15px;
 }
 
+a,
 article a {
   text-decoration: none;
-  color: #1C39BB;
+  color: #1c39bb;
+  font-weight: bold;
+}
+
+p strong {
   font-weight: bold;
 }
