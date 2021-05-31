@@ -71,7 +71,6 @@ body {
 .destination img {
   display: block;
   justify-self: auto;
-  margin-left: 2%;
 }
 
 .destination p {
@@ -83,12 +82,10 @@ body {
 }
 
 figcaption {
-  margin-left: 2%;
   color: rgb(26, 27, 31);
   font-size: 16px;
   line-height: 28px;
   font-weight: bold;
-  text-decoration: underline;
 }
 
 span {
@@ -107,9 +104,7 @@ ul {
   justify-content: space-evenly;
   flex-direction: column;
   padding-left: 0;
-}
-
-ul li {
+  margin-left: 0;
   list-style: none;
 }
 
@@ -119,8 +114,14 @@ ul li {
   align-items: flex-start;
 }
 
+figure {
+  margin: 0;
+  padding: 0;
+}
+
 figure img {
-  max-width: 60%;
+  max-width: 90%;
+  min-width: 90%;
 }
 
 article {
